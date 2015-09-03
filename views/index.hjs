@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/main.css' />
+  </head>
+  <body>
+
+  	<div class="bar">
+  		<div class="barlogo">LOGO</div>
+  		<div class="barlink" id="1"><a href="">CONTENT 1 </a></div>
+  		<div class="barlink" id="2"><a href="#second">CONTENT 2</a></div>
+  		<div class="barlink" id="3"><a href="#third">CONTENT 3</a></div>
+  		<div class="barlink" id="4"><a href="#fourth">CONTENT 4</a></div>
+  		<div class="barlink" id="5"><a href="#fifth">CONTENT 5</a></div>
+
+  	</div>
+
+  	<div class="fullpagecol" id="title">
+
+  		<h1> Your Company Name</h1>
+  		<h2> Montreal, QC </h2>
+  	</div>
+
+  	<div class="fullpagecol" id="first">
+
+  		<div class="tworow contenttitle">
+  			<h1 id="firsttitle"> TITLE ONE </h1>
+  		</div>
+  		<div class="tworow">
+	  		<div class="twocolumn">
+	  			<h1 id="firstsubtitle1"> SUBTITLE ONE</h1>
+	  			<p id="firstcontent1"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+	  			<div id="firstimage1" class="circular"></div>
+
+	  		</div>
+
+	  		<div class="twocolumn">
+	  			<h1 id="firstsubtitle2"> SUBTITLE TWO </h1>
+	  			<p id="firstcontent2"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+	  			<div id="firstimage2" class="circular"></div>
+	  		</div>
+  		</div>
+
+  	</div>
+
+  	<div class="fullpagecol" id="second">
+      <div class="tworow contenttitle">
+        <h1 id="secondtitle"> TITLE TWO </h1>
+      </div>
+
+      <div class="tworow">
+    		<div class="twocolumn">
+    			<div id="secondimage1"></div>
+    		</div>
+    		<div class="twocolumn">
+    			<h1 id="secondsubtitle1"> SUBTITLE </h1>
+    			<p id="secondcontent1"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    		</div>
+      </div>
+  	</div>
+
+ 	<div class="fullpagerow" id="third">
+  		<div class="twocolumn">
+  			<h1> TITLE THREE </h1>
+  			<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  		</div>
+  		<div class="twocolumn">
+  			<img src="https://c2.staticflickr.com/8/7376/8729768033_a044c18603_b.jpg" height="70%" width="70%"/>
+  		</div>
+  	</div>
+
+ 	<div class="fullpagerow" id="fourth">
+  		<div class="threecolumn">
+  		<h1> SUBTITLE FOUR </h1>
+  			<div class="circular"></div>
+  			<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  			
+  		</div>
+
+  		<div class="threecolumn">
+  		<h1> SUBTITLE FOUR  </h1>
+  			<div class="circular"></div>
+  			<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  		</div>
+
+  		<div class="threecolumn">
+  		<h1> SUBTITLE FOUR </h1>
+  			<div class="circular"></div>
+  			<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  		</div>
+  	</div>
+
+  	<div class="fullpagerow" id="fifth">
+  		<div class="twocolumn">
+  			<h1> Contact Us! </h1>
+  			<h2> Via Telephone: (438) 393-6161 </h2>
+  			<div class="circular"></div>
+  		</div>
+
+  		<div class="twocolumn">
+  			<h2> Via Email </h2>
+  			<form action="">
+  				<input type="text" name="fname" size="40rem" placeholder="First Name"><br>
+  				<input type="text" name="lname" size="2em" placeholder="Last Name"><br>
+  				<input type="text" name="email" size="1em" placeholder="Email Address"><br>
+  				<textarea name="context" placeholder="Ask us anything!" rows="4" cols="50"></textarea><br><br>
+  				<input type="submit" value="Send">
+
+  			</form>
+
+  		</div>
+  	</div>
+  </body>
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
+  <script src="javascripts/contentGet.js"></script>
+  <script>
+  	$(document).ready(function(){
+  		console.log('ready');
+
+
+  		$('.barlink').on('click',function(e){
+  			
+  			e.preventDefault();
+  			var target = $(this).get(0).id;
+
+  			if(target == '1'){
+  				target = '#first';
+  			} else if (target == '2'){
+  				target = '#second';
+  			} else if (target == '3'){
+  				target = '#third';
+  			} else if (target == '4'){
+  				target = '#fourth';
+  			} else if (target == '5'){
+  				target = '#fifth';
+  			}
+
+  			$('html, body').stop().animate({
+  					scrollTop : $(target).offset().top - 20
+  					}, 1000);
+  		});
+
+  	});
+
+
+  </script>
+
+
+</html>

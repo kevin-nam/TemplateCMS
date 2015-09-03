@@ -1,0 +1,235 @@
+html,body{
+	font:1rem "Lucida Grande",Helvetica,Arial,sans-serif;
+	text-align: center;
+	color: white;
+
+	height: 100%;
+	width: 100%;
+
+	padding:0;
+	margin: 0;
+	left:0;
+	right:0;
+}
+
+@media screen and (orientation: portrait){
+	html,body{
+		font-size: 120%
+	}
+
+	.circular{
+		min-height: 150%;
+		min-width: 150%;
+	}
+}
+
+h1{
+	margin-bottom: 2rem;
+}
+
+p{
+	margin-top: -0.5rem;
+}
+
+.barlink a{
+
+	text-decoration: none;
+	color: white;
+	opacity: 1;
+	transition: opacity 0.25 ease-in-out;
+}
+
+.barlink:hover{
+	opacity: 0.5;
+}
+
+.bar{
+	display: flex;
+	position: fixed;
+
+	min-width:100%;
+	min-height: 10%;
+	height:10%;
+	max-height: 10%;
+
+	align-items: center;
+	justify-content: center;
+
+	z-index: 100;
+
+	background-color: #8ab3ca;
+
+}
+
+.barlogo{
+	max-width: 15%;
+	min-width: 15%;
+
+	align-items: center;
+	justify-content: center;
+
+	margin-right: auto;
+}
+
+.barlink{
+	max-width: 15%;
+	min-width:15%;
+
+	align-items: center;
+	justify-content: center;
+
+	margin-right: auto;
+
+}
+
+.fullpagecol{
+	display: flex;
+	background-color: #88cab3;
+
+	min-width: 100%;
+	min-height: 100%;
+
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+}
+
+.fullpagerow{
+	display: flex;
+	background-color: #888ab3;
+
+	min-width: 100%;
+	min-height: 100%;
+
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+
+}
+
+.tworow{
+	display: flex;
+
+	min-width: 100%;
+	min-height: 45%;
+	max-height: 45%;
+
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+
+
+}
+
+.twocolumn{
+	display:flex;
+
+	min-width: 40%;
+	min-height: 75%;
+	max-width:40%;
+
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+.threecolumn{
+
+	display:flex;
+
+	min-width: 28%;
+	min-height: 75%;
+	max-width:28%;
+
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	padding-left: 1%;
+	padding-right: 1%;
+
+}
+
+#first{
+	min-height: 100% !important;
+	max-height: 100% !important;
+}
+
+#second{
+	min-height: 80% !important;
+	max-height: 80% !important;
+
+	background-color: #777abc !important;
+}
+
+#third{
+	min-height: 80% !important;
+	max-height: 80% !important;
+
+	background-color: #577abc !important;
+}
+
+#fourth{
+	min-height: 120% !important;
+	max-height: 120% !important;
+
+	background-color: #678dbc !important;
+}
+
+input[type="text"], textarea{
+	width:100%;
+	font-size:1.5rem;
+}
+
+input[type="submit"]{
+	cursor: pointer;
+	background-color: #111ccc;
+	font-size:2rem;
+	color: white;
+	border-radius: 1.5rem;
+	border: 0;
+	width: 40%;
+	height: 15%;
+	opacity: 1;
+	transition: opacity 0.25s ease-in-out;
+	transition: background-color 0.25s;
+}
+
+input[type="submit"]:hover{
+	background-color: #ed8822;
+	opacity: 0.9;
+	
+}
+
+
+.spacing{
+	min-width: 6%;
+	max-width: 6%;
+}
+
+#title{
+	background: url('http://www.limitedxposure.com/wp-content/uploads/2011/07/IMG_7956-Edit.jpg') no-repeat left top;
+	/*background: url('/images/bground.jpg');*/
+	background-size: cover;
+	opacity: 0.9;
+}
+
+.circular{
+	min-width: 12rem;
+	min-height: 12rem;
+	border-radius:6rem;
+	-webkit-border-radius: 6rem;
+	-moz-border-radius: 6rem;
+	background: url(/images/bground.jpg) no-repeat;
+	background-size: cover;
+
+	margin: 0.5rem 0.5rem 1rem 0.5rem; 
+}
+
+.contenttitle{
+	padding-bottom: 1rem;
+}

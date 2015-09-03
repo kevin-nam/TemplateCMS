@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Company Name - CMS </title>
+		<link rel='stylesheet' href='/stylesheets/cms.css' />
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'/>
+	</head>
+
+	<body>
+		<div class="sidebar">
+			<div class="sidebarlogo"> Your Company Name  </div>
+			<div class="sidebarlink"> EDIT CONTENT </div>
+			<div class="sidebarlink"> FILE MANAGER </div>
+			<div class="sidebarlink"> UPLOADER </div>
+			<div class="sidebarlink"> USEFUL UTILTIES</div>
+			<div class="sidebarlink"> TO FIT</div>
+			<div class="sidebarlink"> YOUR NEEDS</div>
+		</div>
+
+		<div class="fullpagecol">
+			<h1> Edit Content </h1>
+			<br><br><br>
+
+			<div class="front content">
+				<h4> FRONT PAGE IMAGE: <i class="frontimage image fa fa-pencil"></i></h4>
+					<h2 id="frontimage"></h2>
+			</div>
+
+			<div class="1 content">
+				<h4> TITLE: <i class="firsttitle title fa fa-pencil"></i></h4> 
+					<h2 id="firsttitle"></h2>
+				<h4> SUBTITLE ONE: <i class="firstsubtitle1 subtitle1 fa fa-pencil"></i></h4> 
+					<h2 id="firstsubtitle1"></h2>
+				<h4> CONTENT ONE: <i class="firstcontent1 content1 fa fa-pencil"></i></h4> 
+					<h2 id="firstcontent1"></h2>
+				<h4> IMAGE ONE: <i class="firstimage1 image1 fa fa-pencil"></i></h4> 
+					<h2 id="firstimage1"></h2>
+				<h4> SUBTITLE TWO: <i class="firstsubtitle2 subtitle2 fa fa-pencil"></i></h4> 
+					<h2 id="firstsubtitle2"></h2>
+				<h4> CONTENT TWO: <i class="firstcontent2 content2 fa fa-pencil"></i></h4> 
+					<h2 id="firstcontent2"></h2>
+				<h4> IMAGE TWO: <i class="firstimage2 image2 fa fa-pencil"></i></h4> 
+					<h2 id="firstimage2"></h2>
+			</div>
+
+			<div class="2 content">
+				<h4> TITLE: <i class="secondtitle title fa fa-pencil"></i></h4> 
+					<h2 id="secondtitle"></h2>
+				<h4> SUBTITLE: <i class="secondsubtitle1 subtitle1 fa fa-pencil"></i></h4> 
+					<h2 id="secondsubtitle1"></h2>
+				<h4> CONTENT: <i class="secondcontent1 content1 fa fa-pencil"></i></h4> 
+					<h2 id="secondcontent1"></h2>
+				<h4> IMAGE: <i class="secondimage1 image fa fa-pencil"></i></h4> 
+					<h2 id="secondimage1"></h2>
+			</div>
+
+			<div class="3 content">
+				<h4> TITLE: <i class="thirdtitle title fa fa-pencil"></i></h4> 
+					<h2 id="thirdtitle"></h2>
+				<h4> SUBTITLE: <i class="thirdsubtitle1 subtitle1 fa fa-pencil"></i></h4> 
+					<h2 id="thirdsubtitle1"></h2>
+				<h4> CONTENT: <i class="thirdcontent1 content1 fa fa-pencil"></i></h4> 
+					<h2 id="thirdtitle"></h2>
+				<h4> IMAGE: <i class="thirdimage1 image1 fa fa-pencil"></i></h4> 
+					<h2 id="thirdtitle"></h2>
+			</div>
+
+			<div class="4 content">
+				<h4> SUBTITLE ONE: <i class="fourthsubtitle1 subtitle1 fa fa-pencil"></i></h4> 
+					<h2 id="fourthsubtitle1"></h2>
+				<h4> CONTENT ONE: <i class="fourthcontent1 content1 fa fa-pencil"></i></h4> 
+					<h2 id="fourthcontent1"></h2>
+				<h4> IMAGE ONE: <i class="fourthimage1 image1 fa fa-pencil"></i></h4> 
+					<h2 id="fourthimage1"></h2>
+				<h4> SUBTITLE TWO <i class="fourthsubtitle2 subtitle2 fa fa-pencil"></i></h4> 
+					<h2 id="fourthsubtitle2"></h2>
+				<h4> CONTENT TWO: <i class="fourthcontent2 content2 fa fa-pencil"></i></h4> 
+					<h2 id="fourthcontent2"></h2>
+				<h4> IMAGE TWO: <i class="fourthimage2 image2 fa fa-pencil"></i></h4> 
+					<h2 id="fourthimage2"></h2>
+				<h4> SUBTITLE THREE: <i class="fourthsubtitle3 subtitle3 fa fa-pencil"></i></h4> 
+					<h2 id="fourthsubtitle3"></h2>
+				<h4> CONTENT THREE: <i class="fourthcontent3 content3 fa fa-pencil"></i></h4> 
+					<h2 id="fourthcontent3"></h2>
+				<h4> IMAGE THREE: <i class="fourthimage3 image3 fa fa-pencil"></i></h4> 
+					<h2 id="fourthimage3"></h2>
+			</div>
+
+
+		</div>
+
+		<div class="fullpagecol filemanager">
+			<h1> File Manager </h1>
+			<br><br><br>
+			<span class="up">
+				<i class="fa fa-level-up">Up</i>
+			</span>
+			<table class="linksholder"></table>
+
+		</div>
+
+		<div class="fullpagecol">
+			<h1> Uploader </h1>
+			<br><br><br>
+			
+			<form id="uploadForm" enctype="multipart/form-data" action="/api/upload" method="post">
+			<input type="file" multiple name="fileupload" />
+			<input type="submit" value="Upload Image" name="submit">
+			</form>
+
+		</div>
+
+
+
+	</body>
+	<script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+	<script src='http://cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js'></script>
+	<script src='javascripts/fileexplorer.js'></script>
+	<script src='javascripts/filemgnr.js'></script>
+	<script src='javascripts/editcontent.js'></script>
+
+</html>
+
+
